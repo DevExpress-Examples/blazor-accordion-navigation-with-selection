@@ -1,3 +1,7 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/568838706/22.2.2%2B)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Blazor Accordion – Use the component to organize navigation in the application
 
 You can use the Accordion component to set up navigation between pages in your application.
