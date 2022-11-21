@@ -1,0 +1,36 @@
+﻿<style>
+    .card {
+        border-radius: 0;
+    }
+</style>
+
+<div class="sidebar @StateCssClass">
+    <DxAccordion SelectionMode="NavigationSelectionMode.Single" 
+                 UrlMatchMode="NavigationUrlMatchMode.CurrentPath" 
+                 CssClass="app-sidebar">
+        <Items>
+            <DxAccordionItem NavigateUrl="./" Text="Overview" />
+            <DxAccordionItem Text="Employees" AllowSelection="false">
+                <Items>
+                    <DxAccordionItem Text="Reports" AllowSelection="false">
+                        <Items>
+                            <DxAccordionItem Text="Employee List Report" NavigateUrl="listReport" />
+                            <DxAccordionItem Text="Employee List" NavigateUrl="employeeList" />
+                        </Items>
+                    </DxAccordionItem>
+                    <DxAccordionItem Text="Views" AllowSelection="false">
+                        <Items>
+                            <DxAccordionItem Text="Few Columns" NavigateUrl="fewColumns" />
+                            <DxAccordionItem Text="All Columns" NavigateUrl="allColumns" />
+                        </Items>
+                    </DxAccordionItem>
+                </Items>
+            </DxAccordionItem>
+            <DxAccordionItem Text="Tasks" NavigateUrl="tasks" />
+        </Items>
+    </DxAccordion>
+</div>
+
+@code {
+    [Parameter] public string? StateCssClass { get; set; }
+}
