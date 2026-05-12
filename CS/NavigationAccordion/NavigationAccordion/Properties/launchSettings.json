@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "NavigationAccordion": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:2843;http://localhost:2844"
+    }
+  }
+}
